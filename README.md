@@ -12,6 +12,10 @@ MENTOR:NEELA SANTOSH
 
 
 
+##OUTPUT
+
+<img width="630" height="501" alt="Image" src="https://github.com/user-attachments/assets/4307f2cc-4ad2-4fb4-8f19-2ed9ff5ba201" />
+
 ## Multithreaded Chat Application Using Java – Description
 
 A Multithreaded Chat Application using Java is a network-based communication system that allows multiple users to exchange messages simultaneously over a client-server architecture. The project demonstrates the practical implementation of multithreading, socket programming, and real-time communication in Java. It is widely used for understanding networking concepts and concurrent programming techniques.
