@@ -1,3 +1,33 @@
+COMPANY:CODTECH IT SOLUTIONS
+
+NAME:SRIJAN MANDAL
+
+INTERN ID:CTIS8634
+
+DOMAIN:JAVA PROGRAMMING
+
+DURATION:4 WEEKS
+
+MENTOR:NEELA SANTOSH
+
+
+
+## Multithreaded Chat Application Using Java – Description
+
+A Multithreaded Chat Application using Java is a network-based communication system that allows multiple users to exchange messages simultaneously over a client-server architecture. The project demonstrates the practical implementation of multithreading, socket programming, and real-time communication in Java. It is widely used for understanding networking concepts and concurrent programming techniques.
+
+The application consists of two main components: the server and the client. The server acts as the central system that manages connections from multiple clients, while each client represents a user participating in the chat. The server continuously listens for incoming client requests using sockets. Whenever a new user connects, the server creates a separate thread to handle communication with that client independently. This multithreading approach allows multiple users to send and receive messages at the same time without interrupting one another.
+
+Java provides strong support for this type of application through packages such as `java.net` for socket programming and `java.io` for input and output stream handling. Threads are created using the `Thread` class or the `Runnable` interface to manage concurrent execution. Each client thread operates independently, enabling smooth and efficient communication among connected users.
+
+The chat application can support features such as private messaging, group chats, user login systems, timestamps, message broadcasting, online user lists, and chat history storage. Messages sent by one client are transmitted to the server, which then forwards them to all other connected clients. This ensures real-time communication across the network.
+
+One of the major advantages of multithreading is improved performance and responsiveness. Since each client connection runs in its own thread, the application can handle multiple users efficiently without freezing or delaying communication. Exception handling is also implemented to manage network failures, abrupt client disconnections, and invalid inputs.
+
+The project can be developed as a command-line application or enhanced with graphical user interfaces (GUI) using Java Swing or JavaFX for a more interactive user experience. Security features such as encrypted communication and user authentication can also be integrated for better reliability.
+
+Overall, the Multithreaded Chat Application using Java is an excellent project for learning client-server communication, concurrent programming, networking protocols, and real-time data exchange. It provides hands-on experience in building scalable communication systems and demonstrates the power of Java in developing distributed applications.
+
 # Java Multithreaded Chat Application
 
 A **real-time client-server chat app** built with Java Sockets and Multithreading.  
